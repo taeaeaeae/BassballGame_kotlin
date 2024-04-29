@@ -1,20 +1,18 @@
 package org.example
 
-import inline.numCheck
 import kotlin.random.Random
+import inline.numCheck
 
 class Bassball {
 
-
     //중복숫자없게 이거 추상화 될듯? 아닌가?
-    fun check() : String{
-        var answerNum : String = Random.nextInt(100, 999).toString()
-        while(numCheck(answerNum)) {
-           answerNum = Random.nextInt(100, 999).toString()
+    fun randomNum() : String{
+        var num = "000"
+        while(numCheck(num)) {
+           num = Random.nextInt(100, 999).toString()
         }
-        return answerNum
+        return num
     }
-
 
     // 몇볼인지 알려줘
     fun ballUmpire(answerNum : String, num : String) : Int {

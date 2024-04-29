@@ -10,7 +10,7 @@ fun main() {
     var num = ""
 
     while (numCheck(num)){
-        input("숫자를 입력하세요")
+        num = input("숫자를 입력하세요")
     }
 
 
