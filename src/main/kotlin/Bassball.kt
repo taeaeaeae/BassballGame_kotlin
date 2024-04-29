@@ -6,7 +6,7 @@ import kotlin.random.Random
 class Bassball {
 
 
-    //중복숫자없게 이거 추상화 될듯?
+    //중복숫자없게 이거 추상화 될듯? 아닌가?
     fun check() : String{
         var answerNum : String = Random.nextInt(100, 999).toString()
         while(numCheck(answerNum)) {
