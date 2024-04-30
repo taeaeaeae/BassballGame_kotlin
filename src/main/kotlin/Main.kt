@@ -8,7 +8,7 @@ fun main() {
 
 
 //    val number = num.inputNum()
-    val answer = "195"
+    val answer = num.randomNum()
 
     var res = ""
     while (!res.equals("정답입니다.")) {
