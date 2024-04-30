@@ -7,10 +7,16 @@ fun main() {
 
 
 
-    val number = num.inputNum()
-    val answer = "195"//num.randomNum()
+//    val number = num.inputNum()
+    val answer = "195"
 
-    println(game.guessYou(number, answer))
+    var res = ""
+    while (!res.equals("정답입니다.")) {
+
+        res = game.guessYou(num.inputNum(), answer)
+        println(res)
+
+    }
 
 
 
