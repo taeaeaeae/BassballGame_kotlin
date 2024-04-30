@@ -1,17 +1,13 @@
 package org.example
 
-import inline.input
-import inline.numCheck
-import kotlin.random.Random
-
 fun main() {
     println("< 게임을 시작합니다 >")
 
-    var num = ""
+    val num = Numbers()
 
-    while (numCheck(num)){
-        num = input("숫자를 입력하세요")
-    }
+//    val a = "\\d\\d\\d".toRegex().matches("000")
+
+    val number = num.inputNum()
 
 
 }

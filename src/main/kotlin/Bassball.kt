@@ -5,14 +5,6 @@ import inline.numCheck
 
 class Bassball {
 
-    //중복숫자없게 이거 추상화 될듯? 아닌가?
-    fun randomNum() : String{
-        var num = "000"
-        while(numCheck(num)) {
-           num = Random.nextInt(100, 999).toString()
-        }
-        return num
-    }
 
     // 몇볼인지 알려줘
     fun ballUmpire(answerNum : String, num : String) : Int {
