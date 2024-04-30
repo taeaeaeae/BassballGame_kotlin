@@ -17,7 +17,7 @@ class Numbers {
     fun inputNum() : String{
         var number = input("숫자를 입력하세요")
         while (!"\\d\\d\\d".toRegex().matches(number) || (number[0].equals("0") || numCheck(number))){
-            println("올바르지 않은 입력값입니다")
+            println("올바르지 않은 입력값입니다\n")
             number = input("숫자를 입력하세요")
         }
         return number
