@@ -1,6 +1,6 @@
 package org.example
 
-class Bassball {
+class Umpire {
 
     // 몇볼인지 알려줘
     fun ballUmpire(answerNum : String, num : String) : Int {
