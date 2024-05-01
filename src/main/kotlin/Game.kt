@@ -2,19 +2,21 @@ package org.example
 
 class Game {
 
-    fun start() {
+    fun start() : Int {
         val num = Numbers()
+        var count = 0       //시도횟수
 
         println("< 게임을 시작합니다 >")
 
         val answer = num.randomNum()
-//        println(answer)
 
         var res = ""
-        while (!res.equals("정답입니다!\n")) {
+        while (!res.equals("정답입니다!")) {
             res = guessYou(num.inputNum(), answer)
             println(res)
+            count++
         }
+        return count
     }
 
      private fun guessYou(answer: String, your: String): String {
