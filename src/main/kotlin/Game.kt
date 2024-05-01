@@ -4,7 +4,7 @@ class Game {
 
     fun start() : Int {
         val num = Numbers()
-        var count = 0       //시도횟수
+        var count = 0
 
         println("< 게임을 시작합니다 >")
 
