@@ -3,7 +3,7 @@ package org.example
 class GameMachine {
     val game = Game()
 
-    fun gogo()  {
+    fun joystick()  {
         var toggle = 0
         var gameCount = 0
         val history = mutableListOf<Int>()
