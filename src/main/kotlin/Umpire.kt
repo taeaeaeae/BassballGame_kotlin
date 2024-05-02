@@ -2,7 +2,6 @@ package org.example
 
 class Umpire {
 
-    // 몇볼인지 알려줘
     fun ballUmpire(answerNum : String, num : String) : Int {
         var ball = 0
         for(i in answerNum.indices){
@@ -11,7 +10,6 @@ class Umpire {
         return ball
     }
 
-    // 몇 스트라이크야?
     fun strikeUmpire(answerNum : String, num : String) : Int {
         var strike = 0
         for( i in answerNum.indices){

@@ -33,7 +33,6 @@ class GameMachine {
                     } else {
                         println("플페이한 기록이 없습니다.")
                     }
-
                 }
                 3 -> {
                     println("< 숫자 야구 게임을 종료합니다 >")
