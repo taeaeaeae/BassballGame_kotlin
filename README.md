@@ -15,7 +15,8 @@
 - 종료하기 선택 시 프로그램 종료
 
   ## 순서도
-  ![bassballgame drawio](https://github.com/taeaeaeae/BassballGame_kotlin/assets/46617216/9196e9d4-f259-4d58-9364-a118d569551e)
+  ![bassballgame](https://github.com/taeaeaeae/BassballGame_kotlin/assets/46617216/88f2bc37-2488-406e-a5f5-c82860a86285)
+
 
   ## 패키지 설명
   ### gameplay
