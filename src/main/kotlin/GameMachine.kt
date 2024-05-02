@@ -18,21 +18,13 @@ class GameMachine {
                 println("숫자를 입력해주면 좋겠어")
             }
 
-
             when (toggle) {
                 1 -> {
                     gameCount = game.start()
                     history.add(gameCount)
                 }
                 2 -> {
-                    if(history.size > 0) {
-                        println("< 게임 기록 보기 >")
-                        for (i in history.indices) {
-                            println("${i + 1}번째 게임 : 시도 횟수 - ${history[i]}")
-                        }
-                    } else {
-                        println("플페이한 기록이 없습니다.")
-                    }
+                    game.history(history)
                 }
                 3 -> {
                     println("< 숫자 야구 게임을 종료합니다 >")
