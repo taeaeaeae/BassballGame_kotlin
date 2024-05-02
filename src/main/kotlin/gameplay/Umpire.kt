@@ -1,4 +1,4 @@
-package org.example.gameplay
+package gameplay
 
 class Umpire {
 
