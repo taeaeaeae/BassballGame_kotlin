@@ -14,6 +14,9 @@
 - 기록보기 선택 시 완료한 게임들의 시도횟수 출력
 - 종료하기 선택 시 프로그램 종료
 
+  ## 순서도
+  ![bassballgame drawio](https://github.com/taeaeaeae/BassballGame_kotlin/assets/46617216/9196e9d4-f259-4d58-9364-a118d569551e)
+
   ## 게임 진행
   ```javascript
   환영합니다! 원하시는 번호를 입력해주세요.
