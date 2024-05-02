@@ -1,4 +1,4 @@
-package org.example
+package org.example.gameplay
 
 import inline.input
 import inline.numCheck
