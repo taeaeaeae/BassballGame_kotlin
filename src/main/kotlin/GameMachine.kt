@@ -25,10 +25,15 @@ class GameMachine {
                     history.add(gameCount)
                 }
                 2 -> {
-                    println("< 게임 기록 보기 >")
-                    for (i in history.indices) {
-                        println("${i + 1}번째 게임 : 시도 횟수 - ${history[i]}")
+                    if(history.size > 0) {
+                        println("< 게임 기록 보기 >")
+                        for (i in history.indices) {
+                            println("${i + 1}번째 게임 : 시도 횟수 - ${history[i]}")
+                        }
+                    } else {
+                        println("플페이한 기록이 없습니다.")
                     }
+
                 }
                 3 -> {
                     println("< 숫자 야구 게임을 종료합니다 >")
