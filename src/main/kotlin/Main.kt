@@ -1,6 +1,5 @@
-package org.example
 
-import org.example.gameplay.GameMachine
+import gameplay.GameMachine
 
 fun main() {
 
