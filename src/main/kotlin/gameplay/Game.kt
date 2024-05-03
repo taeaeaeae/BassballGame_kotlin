@@ -2,6 +2,8 @@ package gameplay
 
 class Game {
 
+    private val history = mutableListOf<Int>()
+
     fun start() : Int {
         val num = Numbers()
         var count = 0
@@ -16,6 +18,7 @@ class Game {
             println(res)
             count++
         }
+        history.add(count)
         return count
     }
 
@@ -35,7 +38,7 @@ class Game {
          }
     }
 
-    fun history(history:MutableList<Int>) {
+    fun history() {
         if(history.size > 0) {
             println("< 게임 기록 보기 >")
             for (i in history.indices) {

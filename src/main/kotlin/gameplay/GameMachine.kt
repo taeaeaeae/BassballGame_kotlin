@@ -5,8 +5,6 @@ class GameMachine {
 
     fun joystick()  {
         var toggle = 0
-        var gameCount = 0
-        val history = mutableListOf<Int>()
 
         while (toggle != 3) {
             println("\n환영합니다! 원하시는 번호를 입력해주세요.")
@@ -20,15 +18,13 @@ class GameMachine {
 
             when (toggle) {
                 1 -> {
-                    gameCount = game.start()
-                    history.add(gameCount)
+                    game.start()
                 }
                 2 -> {
-                    game.history(history)
+                    game.history()
                 }
                 3 -> {
                     println("< 숫자 야구 게임을 종료합니다 >")
-                    toggle = 3
                 }
                 else -> println("메뉴에 있는 숫자만 골라줘")
             }
