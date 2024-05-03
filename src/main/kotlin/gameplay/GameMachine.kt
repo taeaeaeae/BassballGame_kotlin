@@ -28,7 +28,7 @@ class GameMachine {
                 }
                 3 -> {
                     println("< 숫자 야구 게임을 종료합니다 >")
-                    break
+                    toggle = 3
                 }
                 else -> println("메뉴에 있는 숫자만 골라줘")
             }
