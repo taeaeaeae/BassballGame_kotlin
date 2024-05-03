@@ -1,7 +1,7 @@
 package gameplay
 
 class GameMachine {
-    val game = Game()
+    private val game = Game()
 
     fun joystick()  {
         var toggle = 0
